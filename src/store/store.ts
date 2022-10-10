@@ -1,9 +1,9 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-
+import userReducer from './reducers/userSlice'
 
 
 const rootReducer = combineReducers({
-
+  userReducer,
 })
 
 export const setupStore = () => {
@@ -11,6 +11,7 @@ export const setupStore = () => {
     reducer: rootReducer,
   })
 }
+
 
 
 export type RootState = ReturnType<typeof rootReducer>
