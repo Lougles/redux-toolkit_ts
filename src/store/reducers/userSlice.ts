@@ -15,7 +15,6 @@ const initialState: UserState = {
   count: 0,
 }
 
-
 export const userSlice = createSlice({
   name: 'user',
   initialState,
@@ -25,6 +24,5 @@ export const userSlice = createSlice({
     }
   }
 })
-
 
 export default userSlice.reducer;
