@@ -1,16 +1,21 @@
 import './App.css';
 import { useAppDispatch, useAppSelector } from './store/hooks/redux';
+import { fetchUsers } from './store/reducers/ActionCreators';
 import { userSlice } from './store/reducers/userSlice';
 
 function App() {
-  const {count} = useAppSelector(state => state.userReducer);
-  const {incremented} = userSlice.actions;
   const dispatch = useAppDispatch();
+  const {users, isLoading, error} = useAppSelector(state => state.userReducer);
+  // const {usersFetchin,usersFetchinSuccess,usersFetchinError} = userSlice.actions
 
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={() => dispatch(incremented(Number(prompt())))}>PLUS</button>
+      <ul>
+        {users.map(user => 
+          <li key={user.id}>{user.name}</li>
+          )}
+      </ul>
+      <button onClick={() => dispatch(fetchUsers())}>Fetch User</button>
     </div>
   );
 }
