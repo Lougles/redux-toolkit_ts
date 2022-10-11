@@ -1,0 +1,154 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 6,
+      "title": "js7",
+      "author": "typicode"
+    },
+    {
+      "id": 8,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 11,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 12,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 13,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 14,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 15,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Chelidze",
+      "body": "Vova",
+      "id": 16
+    },
+    {
+      "title": "Old POst",
+      "body": "NEW POST",
+      "id": 17
+    },
+    {
+      "title": "qwerty",
+      "body": "qwerty",
+      "id": 18
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 6,
+      "body": "some comment",
+      "postId": 3
+    },
+    {
+      "id": 7,
+      "body": "some comment",
+      "postId": 3
+    },
+    {
+      "id": 8,
+      "body": "some comment",
+      "postId": 3
+    },
+    {
+      "id": 9,
+      "body": "some comment",
+      "postId": 4
+    },
+    {
+      "id": 10,
+      "body": "some comment",
+      "postId": 4
+    },
+    {
+      "id": 11,
+      "body": "some comment",
+      "postId": 5
+    },
+    {
+      "id": 13,
+      "body": "some comment",
+      "postId": 6
+    },
+    {
+      "id": 14,
+      "body": "some comment",
+      "postId": 6
+    },
+    {
+      "id": 15,
+      "body": "some comment",
+      "postId": 6
+    },
+    {
+      "id": 21,
+      "body": "some comment",
+      "postId": 8
+    },
+    {
+      "id": 22,
+      "body": "some comment",
+      "postId": 8
+    },
+    {
+      "id": 23,
+      "body": "some comment",
+      "postId": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
