@@ -1,7 +1,7 @@
 import { IUser } from './../Models/|User';
-import { AppDispatch } from './../store';
+// import { AppDispatch } from './../store';
+// import { userSlice } from './userSlice';
 import axios from 'axios';
-import { userSlice } from './userSlice';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 // export const fetchUsers = () => async(dispatch: AppDispatch) => {
