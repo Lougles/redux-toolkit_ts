@@ -1,5 +1,5 @@
 import { postApi } from './../services/postService';
-import { combineReducers, configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import userReducer from './reducers/userSlice'
 
 
